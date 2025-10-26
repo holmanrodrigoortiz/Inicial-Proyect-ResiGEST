@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Sistema de Gestión Residencial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1>🏠 ResiGest</h1>
+      <p>Sistema de Gestión Residencial Integral</p>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username">Usuario o Correo</label>
+          <input type="text" id="username" name="username" required placeholder="Ingrese su usuario">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" required placeholder="Ingrese su contraseña">
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="remember">
+          <label for="remember">Recordar sesión</label>
+        </div>
+
+        <button type="submit" class="btn-primary">Iniciar Sesión</button>
+
+        <div class="forgot-password">
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

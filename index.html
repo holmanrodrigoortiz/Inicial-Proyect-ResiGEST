@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Sistema de Gestión Residencial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <h2>🏠 ResiGest</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="propiedades.html">Propiedades</a></li>
+        <li><a href="mantenimientos.html">Mantenimientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html" class="btn-logout">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <header class="dashboard-header">
+      <h1>Bienvenido al Dashboard</h1>
+      <p>Sistema de Gestión Residencial Integral</p>
+    </header>
+
+    <!-- Tarjetas de estadísticas -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">🏢</div>
+        <h3>Total Propiedades</h3>
+        <p class="stat-number">24</p>
+        <span class="stat-label">Unidades registradas</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">🔧</div>
+        <h3>Mantenimientos Pendientes</h3>
+        <p class="stat-number">8</p>
+        <span class="stat-label">Requieren atención</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">💰</div>
+        <h3>Ingresos del Mes</h3>
+        <p class="stat-number">$2,450,000</p>
+        <span class="stat-label">COP</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <h3>Residentes Activos</h3>
+        <p class="stat-number">18</p>
+        <span class="stat-label">Familias registradas</span>
+      </div>
+    </section>
+
+    <!-- Actividad reciente -->
+    <section class="recent-activity">
+      <h2>Actividad Reciente</h2>
+      <div class="activity-list">
+        <div class="activity-item">
+          <div class="activity-icon">🔑</div>
+          <div class="activity-content">
+            <h4>Nueva propiedad registrada</h4>
+            <p>Apto 301 - Torre 2</p>
+            <span class="activity-time">Hace 2 horas</span>
+          </div>
+        </div>
+
+        <div class="activity-item">
+          <div class="activity-icon">🔧</div>
+          <div class="activity-content">
+            <h4>Mantenimiento completado</h4>
+            <p>Elevador principal - Torre 1</p>
+            <span class="activity-time">Hace 5 horas</span>
+          </div>
+        </div>
+
+        <div class="activity-item">
+          <div class="activity-icon">💵</div>
+          <div class="activity-content">
+            <h4>Pago recibido</h4>
+            <p>Apto 205 - Valor: $450,000</p>
+            <span class="activity-time">Ayer</span>
+          </div>
+        </div>
+
+        <div class="activity-item">
+          <div class="activity-icon">📋</div>
+          <div class="activity-content">
+            <h4>Nueva solicitud de mantenimiento</h4>
+            <p>Apto 108 - Fuga de agua</p>
+            <span class="activity-time">Ayer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 ResiGest - Sistema de Gestión Residencial Integral. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Sistema de Gestión Residencial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <h2>🏠 ResiGest</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="propiedades.html">Propiedades</a></li>
+        <li><a href="mantenimientos.html">Mantenimientos</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+        <li><a href="login.html" class="btn-logout">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <div class="page-header">
+      <h1>Contacto y Soporte</h1>
+    </div>
+
+    <div class="contact-container">
+      <!-- Información de contacto -->
+      <div class="contact-info">
+        <h2>Información de Contacto</h2>
+        
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h3>Dirección</h3>
+            <p>Carrera 15 #45-67<br>Barrio Centro<br>Bogotá, Colombia</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h3>Teléfono</h3>
+            <p>+57 (1) 234 5678<br>+57 300 123 4567</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h3>Email</h3>
+            <p>info@resigest.com<br>soporte@resigest.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <h3>Horario de Atención</h3>
+            <p>Lunes a Viernes: 8:00 AM - 6:00 PM<br>Sábados: 9:00 AM - 1:00 PM</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">💬</div>
+          <div>
+            <h3>Redes Sociales</h3>
+            <p>Facebook: /ResiGest<br>Instagram: @resigest</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <div class="contact-form-box">
+        <h2>Envíanos un Mensaje</h2>
+        
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" name="name" required placeholder="Ingrese su nombre">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+          </div>
+
+          <div class="form-group">
+            <label for="property">Propiedad (Opcional)</label>
+            <input type="text" id="property" name="property" placeholder="Apto 101, Torre 1">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" required placeholder="Motivo del contacto">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" required placeholder="Escriba su mensaje aquí..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 ResiGest - Sistema de Gestión Residencial Integral. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

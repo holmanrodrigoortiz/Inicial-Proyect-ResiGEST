@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mantenimientos - Sistema de Gestión Residencial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <h2>🏠 ResiGest</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="propiedades.html">Propiedades</a></li>
+        <li><a href="mantenimientos.html" class="active">Mantenimientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html" class="btn-logout">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <div class="page-header">
+      <h1>Mantenimientos y Solicitudes</h1>
+      <button class="btn-secondary">➕ Nueva Solicitud</button>
+    </div>
+
+    <!-- Tabla de mantenimientos -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Propiedad</th>
+            <th>Tipo</th>
+            <th>Descripción</th>
+            <th>Estado</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#001</td>
+            <td>Apto 108</td>
+            <td>🔧 Plomería</td>
+            <td>Fuga de agua en la cocina</td>
+            <td><span class="property-status status-maintenance">Pendiente</span></td>
+            <td>01/11/2024</td>
+          </tr>
+          <tr>
+            <td>#002</td>
+            <td>Apto 204</td>
+            <td>🔨 Reparación</td>
+            <td>Pintura y mantenimiento general</td>
+            <td><span class="property-status status-maintenance">En Proceso</span></td>
+            <td>28/10/2024</td>
+          </tr>
+          <tr>
+            <td>#003</td>
+            <td>Torre 1 - Elevador</td>
+            <td>⚙️ Instalaciones</td>
+            <td>Revisión técnica del elevador</td>
+            <td><span class="property-status status-occupied">Completado</span></td>
+            <td>25/10/2024</td>
+          </tr>
+          <tr>
+            <td>#004</td>
+            <td>Apto 301</td>
+            <td>💡 Eléctrico</td>
+            <td>Cambio de lámparas en pasillo</td>
+            <td><span class="property-status status-vacant">Completado</span></td>
+            <td>24/10/2024</td>
+          </tr>
+          <tr>
+            <td>#005</td>
+            <td>Apto 501</td>
+            <td>🔧 Plomería</td>
+            <td>Revisión de tuberías</td>
+            <td><span class="property-status status-maintenance">Pendiente</span></td>
+            <td>30/10/2024</td>
+          </tr>
+          <tr>
+            <td>#006</td>
+            <td>Zona Común</td>
+            <td>🌳 Jardinería</td>
+            <td>Poda y mantenimiento de áreas verdes</td>
+            <td><span class="property-status status-maintenance">En Proceso</span></td>
+            <td>29/10/2024</td>
+          </tr>
+          <tr>
+            <td>#007</td>
+            <td>Apto 102</td>
+            <td>🔒 Cerrajería</td>
+            <td>Cambio de cerradura principal</td>
+            <td><span class="property-status status-occupied">Completado</span></td>
+            <td>22/10/2024</td>
+          </tr>
+          <tr>
+            <td>#008</td>
+            <td>Torre 2 - Hall</td>
+            <td>🧹 Limpieza</td>
+            <td>Limpieza profunda de escaleras</td>
+            <td><span class="property-status status-maintenance">Pendiente</span></td>
+            <td>31/10/2024</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 ResiGest - Sistema de Gestión Residencial Integral. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
